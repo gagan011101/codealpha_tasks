@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="learn how to recognize phishing emails,fake websites and social engineering attacks through intrective cybersecurity training">
+        <title>Phishing Awareness Training</title>
+        <link rel="stylesheet" href="./style1.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container nav">
+                <a href="#home" class="logo">Cyber <span>Safe</span></a>
+                <nav aria-label="Main navigation">
+                    <a href="#learn">Learn</a>
+                    <a href="#safety">Safety Tips</a>
+                    <a href="#quiz">Quiz</a>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <!-- Hero section -->
+            <section class="hero" id="home">
+                <div class="container hero-content">
+                    <p class="tag">
+                        CYBER SECURITY AWARENESS TRAINING
+                    </p>
+                    <h1>Think Before You <span>Click</span></h1>
+                    <p>
+                        Learn how to identify phishing attacks,recognize fake websites,and protect your personal information online.
+                    </p>
+                    <a href="#learn" class="btn">Start Learning</a>
+                </div>
+            </section>
+
+            <!-- Learning section -->
+            <section class="section" id="learn">
+                <div class="container">
+                    <h2>What is phishing</h2>
+                    <p class="section-info">
+                        Phishing is a social engineering cyberattack where scammers use fraudulent messages to trick people into revealing sensitive data—like passwords and credit card numbers—or installing malware
+                    </p>
+                    <div class="cards">
+                        <article class="card">
+                            <div class="card-icon"></div>
+                            <h3>Phishing Emails</h3>
+                            <p>
+                                Bulk fraudulent emails sent to thousands of people pretending to be banks, stores, or service providers.
+                            </p>
+                        </article>
+
+                        <article class="card">
+                            <div class="card-icon"></div>
+                            <h3>Fake websites</h3>
+                            <p>
+                                A fake website is a fraudulent lookalike webpage created by cybercriminals to mimic legitimate brands, banks, or services. Its primary goal is to deceive users into giving away sensitive information like passwords, credit cards, or personal data.
+                            </p>
+                        </article>
+
+                        <article class="card">
+                            <div class="card-icon"></div>
+                            <h3>Social Engineering</h3>
+                            <p>
+                                Social engineering is a psychological manipulation technique cybercriminals use to trick people into giving away confidential information or access.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Warning signs -->
+            <section class="section section-alt" id="signs">
+                <div class="container">
+                    <h2>How to spot a phishing attack</h2>
+                    <div class="warning-list">
+                        <div class="warning-item">
+                            <div>
+                                <h3>High Urgency</h3>
+                                <p>
+                                    Forcing you to act immediately (e.g., "Your account will be permanently deleted in 15 minutes!").
+                                </p>
+                            </div>
+                        </div>
+                        <div class="warning-item">
+                            <div>
+                                <h3>High Urgency</h3>
+                                <p>
+                                    Forcing you to act immediately (e.g., "Your account will be permanently deleted in 15 minutes!").
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="warning-item">
+                            <div>
+                                <h3>Greed or Excitement</h3>
+                                <p>
+                                    Offering unexpected financial rewards, free luxury goods, or job offers that require no effort.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="warning-item">
+                            <div>
+                                <h3>Over-Sharing or Direct Inquiries</h3>
+                                <p>
+                                    Asking for sensitive information (like OTPs, passwords, or employee IDs) that a legitimate company or manager would already have or never request over message.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="warning-item">
+                            <div>
+                                <h3>Inconsistent Stories</h3>
+                                <p>
+                                    Someone claiming to be a close friend or executive but using odd phrasing, poor grammar, or an uncharacteristically formal/informal tone.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Safety Tips -->
+             <section class="section section-alt" id="safety">
+                <div class="container">
+                    <h2>Safety Tips</h2>
+                    <div class="tips-grid">
+                        <div class="tip">Verify the sender independently.</div>
+                        <div class="tip">Never share secrets like OTPs.</div>
+                        <div class="tip">Use a password manager with strong multi-factor authentication.</div>
+                        <div class="tip">Monitor account activity.</div>
+                        <div class="tip">Turn off auto-download.</div>
+                        <div class="tip">Deny unexpected MFA prompts.</div>
+                    </div>
+                </div>
+             </section>
+
+            <!-- intrective quiz -->
+            <section class="section" id="quiz">
+                <div class="container">
+                    <h2>Test Your Knowledge</h2>
+                    <p>
+                        Answer the questions below to check your phishing awareness. Read each scenario carefully.
+                    </p>
+
+                    <div class="quiz-box">
+                        <div class="quiz-progress" id="quiz-progress">Question 1 of 5</div>
+
+                        <div class="quiz-content" id="quiz-content" aria-live="polite">
+                            <h3 id="question">Loading question...</h3>
+                            <div class="answers" id="answers"></div>
+                            <p id="feedback" class="feedback" role="status"></p>
+                            <button id="next-btn" class="btn" type="button" hidden>Next Question</button>
+                        </div>
+
+                        <div id="quiz-result" aria-live="polite" hidden>
+                            <h3>Quiz Completed!</h3>
+                            <p id="score"></p>
+                            <p id="result-message"></p>
+                            <button id="restart-btn" class="btn" type="button">Try Again</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <p>CyberSafe | Phishing Awareness Training Project</p>
+                <P>Learn to recognize threats.Stay alert .Stay safe</P>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
+            
